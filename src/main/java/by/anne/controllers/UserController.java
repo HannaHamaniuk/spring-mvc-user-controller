@@ -1,10 +1,15 @@
 package by.anne.controllers;
 
+import by.anne.model.entities.User;
 import by.anne.model.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+
+import java.util.List;
+
+import static by.anne.constants.AppConstants.*;
 
 @Controller
 public class UserController {
@@ -15,8 +20,11 @@ public class UserController {
         this.service = service;
     }
 
-    @GetMapping(value=)
+    @GetMapping(value = ALL_USER_URL)
     public String all(Model model){
+        List<User> users = service.getAllUsers();
+        model.addAttribute(USER_LIST_ATTR,users);
+        return USER_PAGE;
 
     }
 }
