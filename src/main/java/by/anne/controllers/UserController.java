@@ -20,6 +20,10 @@ public class UserController {
     public void setService(UserService service) {
         this.service = service;
     }
+    @GetMapping("/")
+    public String goToIndex(){
+        return "index";
+    }
 
     @GetMapping(value = ALL_USER_URL)
     public String all(Model model){
