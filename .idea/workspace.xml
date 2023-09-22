@@ -4,17 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dfc2794-e31c-4c64-85ef-89af469c51ea" name="Changes" comment="" />
+    <list default="true" id="6dfc2794-e31c-4c64-85ef-89af469c51ea" name="Changes" comment="added extension">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/anne/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/anne/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/anne/config/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/anne/config/Init.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2VkBs35AhiuUQkTTGUPc61Pi767" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -35,11 +51,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695370405511</updated>
-      <workItem from="1695370406728" duration="586000" />
+      <workItem from="1695370406728" duration="1592000" />
     </task>
+    <task id="LOCAL-00001" summary="added new Init class">
+      <created>1695371217252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695371217252</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added new AppConfig  class">
+      <created>1695371328784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695371328784</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added extension">
+      <created>1695371349498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695371349498</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added new Init class" />
+    <MESSAGE value="added new AppConfig  class" />
+    <MESSAGE value="added extension" />
+    <option name="LAST_COMMIT_MESSAGE" value="added extension" />
   </component>
 </project>
