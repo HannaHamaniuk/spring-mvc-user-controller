@@ -1,5 +1,6 @@
 package by.anne.controllers;
 
+import by.anne.config.Init;
 import by.anne.model.entities.User;
 import by.anne.model.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +26,12 @@ public class UserController {
         List<User> users = service.getAllUsers();
         model.addAttribute(USER_LIST_ATTR,users);
         return USER_PAGE;
+
+    }
+    @GetMapping(value = DELETE_USER_URL)
+    public String delete(int id){
+        service.deleteUserById(id);
+        return INDEX_PAGE;
 
     }
 }
