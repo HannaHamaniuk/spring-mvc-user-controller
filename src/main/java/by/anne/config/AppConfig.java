@@ -26,8 +26,6 @@ public class AppConfig {
         Configuration configuration = new Configuration();
         configuration.addAnnotatedClass(User.class);
         return configuration;
-
-
     }
     @Bean
     public SessionFactory factory(Configuration configuration){
