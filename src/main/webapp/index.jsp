@@ -9,7 +9,11 @@
     <a href="/all">
         All users
     </a>
-
+</p>
+<p>
+    <a href="/add">
+        Add user
+    </a>
 </p>
 </body>
 </html>
