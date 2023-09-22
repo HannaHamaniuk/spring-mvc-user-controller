@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dfc2794-e31c-4c64-85ef-89af469c51ea" name="Changes" comment="added extension">
+    <list default="true" id="6dfc2794-e31c-4c64-85ef-89af469c51ea" name="Changes" comment="realised deleteUserById method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/anne/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/anne/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/anne/config/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/anne/config/Init.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -34,11 +34,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="by.anne.model.services" />
+      <recent name="by.anne.model.dao" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\java\spring-mvc-user-controller\src" />
     </key>
@@ -51,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695370405511</updated>
-      <workItem from="1695370406728" duration="1592000" />
+      <workItem from="1695370406728" duration="8381000" />
     </task>
     <task id="LOCAL-00001" summary="added new Init class">
       <created>1695371217252</created>
@@ -74,7 +79,196 @@
       <option name="project" value="LOCAL" />
       <updated>1695371349498</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated Init and AppConfig classes by methods">
+      <created>1695372116363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695372116363</updated>
+    </task>
+    <task id="LOCAL-00005" summary="created User class">
+      <created>1695372131245</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695372131245</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added lombok dependency">
+      <created>1695372244096</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695372244096</updated>
+    </task>
+    <task id="LOCAL-00007" summary="created two interfaces">
+      <created>1695372721851</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695372721851</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added new fields to User class">
+      <created>1695372753748</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695372753748</updated>
+    </task>
+    <task id="LOCAL-00009" summary="createn UserDaoImpl">
+      <created>1695375266284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695375266284</updated>
+    </task>
+    <task id="LOCAL-00010" summary="created UserDaoImpl and UserServiceImpl classes">
+      <created>1695376038567</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695376038567</updated>
+    </task>
+    <task id="LOCAL-00011" summary="created UserController">
+      <created>1695376055247</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695376055247</updated>
+    </task>
+    <task id="LOCAL-00012" summary="created AppConstants">
+      <created>1695376070861</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695376070861</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added hibernate dependency">
+      <created>1695376640018</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695376640018</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updated all()method">
+      <created>1695376663905</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695376663905</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added 3 constants">
+      <created>1695376675032</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1695376675032</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added mysql-connector-j dependency">
+      <created>1695376752702</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695376752702</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added version to web.xml">
+      <created>1695376902985</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1695376902985</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added javax.servlet-api dependency">
+      <created>1695376925158</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695376925158</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added jstl dependency">
+      <created>1695376982091</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1695376982091</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added new beans for Configuration and SessionFactory">
+      <created>1695378212454</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1695378212454</updated>
+    </task>
+    <task id="LOCAL-00021" summary="created hibernate.properties for connection to database">
+      <created>1695378243159</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1695378243159</updated>
+    </task>
+    <task id="LOCAL-00022" summary="added annotation for Spring and Hibernate">
+      <created>1695378278407</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1695378278407</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added SessionFactory field to UserDaoImpl">
+      <created>1695379684564</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1695379684564</updated>
+    </task>
+    <task id="LOCAL-00024" summary="created users.jsp">
+      <created>1695379704928</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1695379704928</updated>
+    </task>
+    <task id="LOCAL-00025" summary="added new links in users,jsp">
+      <created>1695380274540</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1695380274540</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added new delete method in interfaces and imolemented them in service and dao classes">
+      <created>1695380326708</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1695380326709</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added new method in UserController">
+      <created>1695380346873</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1695380346873</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added new constants to AppConstants class">
+      <created>1695380362972</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1695380362972</updated>
+    </task>
+    <task id="LOCAL-00029" summary="updated index.jsp">
+      <created>1695380729354</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1695380729354</updated>
+    </task>
+    <task id="LOCAL-00030" summary="realised deleteUserById method">
+      <created>1695380753695</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1695380753695</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,9 +286,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added new Init class" />
-    <MESSAGE value="added new AppConfig  class" />
-    <MESSAGE value="added extension" />
-    <option name="LAST_COMMIT_MESSAGE" value="added extension" />
+    <MESSAGE value="added lombok dependency" />
+    <MESSAGE value="created two interfaces" />
+    <MESSAGE value="added new fields to User class" />
+    <MESSAGE value="createn UserDaoImpl" />
+    <MESSAGE value="created UserDaoImpl and UserServiceImpl classes" />
+    <MESSAGE value="created UserController" />
+    <MESSAGE value="created AppConstants" />
+    <MESSAGE value="added hibernate dependency" />
+    <MESSAGE value="updated all()method" />
+    <MESSAGE value="added 3 constants" />
+    <MESSAGE value="added mysql-connector-j dependency" />
+    <MESSAGE value="added version to web.xml" />
+    <MESSAGE value="added javax.servlet-api dependency" />
+    <MESSAGE value="added jstl dependency" />
+    <MESSAGE value="Added new beans for Configuration and SessionFactory" />
+    <MESSAGE value="created hibernate.properties for connection to database" />
+    <MESSAGE value="added annotation for Spring and Hibernate" />
+    <MESSAGE value="added SessionFactory field to UserDaoImpl" />
+    <MESSAGE value="created users.jsp" />
+    <MESSAGE value="added new links in users,jsp" />
+    <MESSAGE value="added new delete method in interfaces and imolemented them in service and dao classes" />
+    <MESSAGE value="added new method in UserController" />
+    <MESSAGE value="added new constants to AppConstants class" />
+    <MESSAGE value="updated index.jsp" />
+    <MESSAGE value="realised deleteUserById method" />
+    <option name="LAST_COMMIT_MESSAGE" value="realised deleteUserById method" />
   </component>
 </project>
