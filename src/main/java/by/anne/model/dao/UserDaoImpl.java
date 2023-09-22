@@ -23,4 +23,9 @@ public class UserDaoImpl implements UserDao {
            return  session.createQuery("From User",User.class).list();
         }
     }
+
+    @Override
+    public void deleteUserById(int id) {
+
+    }
 }
