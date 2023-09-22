@@ -3,6 +3,7 @@ package by.anne.model.dao;
 import by.anne.model.entities.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -26,6 +27,11 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public void deleteUserById(int id) {
-
+            try(Session session = factory.openSession()){
+                Transaction transaction = session.beginTransaction();
+                User user = session.get(User.class,id);
+                session.delete(user);
+                transaction.commit();
+            }
     }
 }
